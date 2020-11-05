@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.minidigger.fabrictest.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": ["MinecraftServerMixin", "NoiseBasedChunkGeneratorMixin", "NoiseSettingsMixin"],
+  "client": ["BundleMixin", "ProtoChunkMixin", "VerticalBlockSampleMixin", "WorldMixin"],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
