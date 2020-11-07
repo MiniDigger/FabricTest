@@ -1,4 +1,4 @@
-package me.minidigger.fabrictest.mixin;
+package me.minidigger.fabrictest.mixin.worldheight.gen;
 
 import net.minecraft.world.level.biome.BiomeSource;
 import net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator;

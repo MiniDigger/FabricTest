@@ -1,4 +1,4 @@
-package me.minidigger.fabrictest.mixin;
+package me.minidigger.fabrictest.mixin.worldheight;
 
 import net.minecraft.server.MinecraftServer;
 

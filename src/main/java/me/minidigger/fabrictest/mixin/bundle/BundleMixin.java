@@ -1,4 +1,4 @@
-package me.minidigger.fabrictest.mixin;
+package me.minidigger.fabrictest.mixin.bundle;
 
 import net.minecraft.world.item.BundleItem;
 import net.minecraft.world.item.ItemStack;

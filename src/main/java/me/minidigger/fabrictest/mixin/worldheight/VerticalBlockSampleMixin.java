@@ -1,14 +1,14 @@
-package me.minidigger.fabrictest.mixin;
+package me.minidigger.fabrictest.mixin.worldheight;
 
-import net.minecraft.world.level.chunk.ChunkAccess;
-import net.minecraft.world.level.chunk.ProtoChunk;
+import net.minecraft.client.renderer.chunk.RenderChunkRegion;
+import net.minecraft.world.level.BlockAndTintGetter;
 
 import org.spongepowered.asm.mixin.Mixin;
 
 import me.minidigger.fabrictest.FabricTestMod;
 
-@Mixin(ProtoChunk.class)
-public abstract class ProtoChunkMixin implements ChunkAccess {
+@Mixin(RenderChunkRegion.class)
+public abstract class VerticalBlockSampleMixin implements BlockAndTintGetter {
 
     @Override
     public int getSectionsCount() {

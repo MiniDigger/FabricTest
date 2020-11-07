@@ -3,8 +3,17 @@
   "minVersion": "0.8",
   "package": "me.minidigger.fabrictest.mixin",
   "compatibilityLevel": "JAVA_8",
-  "mixins": ["MinecraftServerMixin", "NoiseBasedChunkGeneratorMixin", "NoiseSettingsMixin"],
-  "client": ["BundleMixin", "ProtoChunkMixin", "VerticalBlockSampleMixin", "WorldMixin"],
+  "mixins": [
+    "bundle.BundleMixin", "worldheight.ChunkHolderMixin", "worldheight.LayerLightSectionStorageMixin",
+    "worldheight.MinecraftServerMixin", "worldheight.ProtoChunkMixin", "worldheight.VerticalBlockSampleMixin",
+    "worldheight.WorldMixin", "worldheight.gen.CanyonWorldCarverMixin", "worldheight.gen.CaveWorldCarverMixin",
+    "worldheight.gen.DecoratableMixin", "worldheight.gen.DimensionTypeMixin",
+    "worldheight.gen.NoiseBasedChunkGeneratorMixin", "worldheight.gen.NoiseGeneratorSettingsMixin",
+    "worldheight.gen.NoiseSettingsMixin", "worldheight.gen.WorldCarverMixin",
+    "worldheight.proto.ClientboundLevelChunkPacketMixin", "worldheight.proto.ClientChunkCacheMixin",
+    "worldheight.proto.ClientPacketListenerMixin", "worldheight.proto.LevelChunkMixin"
+  ],
+  "client": [],
   "server": [],
   "injectors": {
     "defaultRequire": 1
